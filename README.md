@@ -6,4 +6,4 @@
 Запустить `docker-compose up -d`;
 Сгенерировать ключ `docker-compose exec app php artisan key:generate && docker-compose exec app php artisan config:cache`;  
 Запустить миграцию `docker-compose exec app php artisan migrate`;  
-Скачать тестовые данные коммандой `docker-compose exec app php artisan command:downloaddata`;  
+Скачать тестовые данные командой `docker-compose exec app php artisan command:downloaddata`;  
