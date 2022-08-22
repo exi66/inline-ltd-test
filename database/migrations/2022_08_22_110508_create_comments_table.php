@@ -18,7 +18,7 @@ return new class extends Migration
             $table->foreignId('postId')->constrained('posts');
             $table->string('name');
             $table->string('email');
-            $table->string('body');
+            $table->string('body', 512);
             $table->timestamps();
         });
     }
