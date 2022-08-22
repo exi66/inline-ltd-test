@@ -54,7 +54,7 @@ class DownloadData extends Command
 			$comment->save();
 		}
 		
-		echo ('Загружено ' . count($postsData) . ' записей и ' . count($commentsData) . ' комментариев\r\n');
+		echo ('Загружено ' . count($postsData) . ' записей и ' . count($commentsData) . ' комментариев');
 		return 1;
     }
 }
